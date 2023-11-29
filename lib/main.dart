@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       //Crear rutas de navegacion
       theme: ThemeData(
-          primaryColor: Colors.blue,
+          primaryColor: const Color.fromARGB(255, 27, 142, 236),
           visualDensity: VisualDensity.adaptivePlatformDensity),
       initialRoute: "Home",
       routes: <String, WidgetBuilder>{

@@ -10,7 +10,7 @@ class _FormularioState extends State<Formulario> {
   String? _cedula;
   String? _nombre;
   String? _telefono;
-  int? _edad;
+  int?    _edad;
   String? _genero;
   String? _clave;
   String? _estadoCivil;
@@ -74,7 +74,7 @@ class _FormularioState extends State<Formulario> {
                       maxLength: 20,
                       validator: (value) {
                         if (value!.isEmpty) {
-                          return 'Ingrese nombres completos';
+                          return 'Ingrese un nombre y un apellido';
                         }
                         if (!RegExp(r'^[a-zA-Z]+$').hasMatch(value)) {
                           return 'El nombre solo debe contener letras';

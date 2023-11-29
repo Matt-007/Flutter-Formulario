@@ -76,7 +76,7 @@ class _SignUpState extends State<SignUp> {
                   ),
                 ),
                 style: ElevatedButton.styleFrom(
-                  primary: Colors.blue,
+                  backgroundColor: Colors.blue,
                 ),
               ),
               AnimatedContainer(
